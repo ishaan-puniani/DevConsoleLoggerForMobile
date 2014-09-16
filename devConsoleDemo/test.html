@@ -1,0 +1,41 @@
+<html><head>
+<title>Html Console Tester</title>
+
+</head>
+<body>
+<div style="position: absolute;top: 30%;left: 10%;font: 50px Arial;color: blue;"><a href="./test.html?doDebug=true&maxConsoleLimit=12&consoleMinimized=false&consolePosition=top&consolePaused=false&retryDebug=true">
+Test Html Console, Parameters passed through query string
+</a>
+<br/>
+<br/>
+<a href="./test_JS_Param.html">
+Test Html Console, Parameters configured through script
+</a>
+</div>
+<script type="text/javascript" src="htmlconsole.min.js"></script>
+<script>
+	var idx=0;
+	for(;idx<20000;idx+=1000)
+		setTimeout(function(id){
+			console.log("This message is console.log on console idx - "+id);
+			console.debug("This message is console.debug on console idx - "+id);
+			console.error("This message is console.error on console idx - "+id);
+			console.info("This message is console.info on console idx - "+id);
+		},idx,idx);
+</script>
+
+
+
+<script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-43444091-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+		  
+</body>
+</html>
