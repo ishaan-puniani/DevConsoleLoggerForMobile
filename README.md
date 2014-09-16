@@ -3,7 +3,10 @@ Developer Console Logger For Mobile and other devices
 
 Writes the console log and debug information including error that are trapped on developer console in HTML container so that it can be viewed on the devices where developer console is not available like mobile, PDA, iPod, iPad, Apple watch
 
+<b>Usage:</b> To use this utility just include the following script and rest every thing can be configured through query string of the page (refer documentation)
 
+<script src="http://ishaan2990.github.io/DevConsoleLoggerForMobile/devConsoleDemo/htmlconsole.min.js"  type="text/javascript"></script>
+ 
 Query String Parameters
 
 1) doDebug=true  // Required to enable html console logger, expected value should be true
