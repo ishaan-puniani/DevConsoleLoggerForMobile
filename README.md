@@ -5,7 +5,7 @@ Writes the console log and debug information including error that are trapped on
 
 <b>Usage:</b> To use this utility just include the following script and rest every thing can be configured through query string of the page (refer documentation)
 
-<pre><code>script src="http://ishaan2990.github.io/DevConsoleLoggerForMobile/devConsoleDemo/htmlconsole.min.js"  type="text/javascript"
+<pre><code>script src="http://ishaan-puniani.github.io/DevConsoleLoggerForMobile/devConsoleDemo/htmlconsole.min.js"  type="text/javascript"
  </code></pre>
 Query String Parameters
 
